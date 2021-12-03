@@ -92,20 +92,26 @@
         app:button_background_padding="16dp"
         app:button_background_src="@drawable/checkmark_white"
         app:button_height="56dp"
-        app:button_width="56dp"
 
+        app:button_width="56dp"
         app:has_active_status="true"
+
+        app:has_finish_animation="true"
         app:inner_text="Swipe"
         app:inner_text_color="@color/black"
+        app:inner_text_gravity="center"
         app:inner_text_size="12sp"
 
         app:layout_constraintBottom_toTopOf="@id/swipe_btn_2"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
         app:outer_background_drawable="@drawable/rounded_gray_corners"
-        app:outer_background_height="40dp" />
+        app:outer_background_height="40dp"
+        app:trail_background_tint="@color/gray"
+        app:trail_enabled="true" />
 
     <com.example.swipebutton_library.SwipeButton
         android:layout_width="match_parent"

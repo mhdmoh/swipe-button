@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudio/SwipeButton/SwipeButton-Library/src/main/res/drawable/rounded_background.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudio/SwipeButton/SwipeButton-Library/src/main/res/drawable/rounded_gray_corners.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudio/SwipeButton/app/src/main/res/drawable-v24/rounded_background.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudio/SwipeButton/app/src/main/res/drawable/circular_white_background.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudio/SwipeButton/app/src/main/res/drawable/rounded_gray_corners.xml" value="0.2703125" />
-        <entry key="..\:/AndroidStudio/SwipeButton/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/AndroidStudio/SwipeButton/app/src/main/res/layout/activity_main.xml" value="0.536" />
       </map>
     </option>
   </component>

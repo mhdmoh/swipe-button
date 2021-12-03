@@ -11,7 +11,7 @@
         <item name="inner_text_size">12sp</item>
         <item name="inner_text_gravity">center</item>
 
-        <item name="outer_background_drawable">@drawable/rounded_background</item>
+        <item name="outer_background_drawable">@drawable/rounded_gray_corners</item>
         <item name="outer_background_height">40dp</item>
 
         <item name="button_background_drawable">@drawable/swipe_btn_background</item>
