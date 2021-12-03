@@ -2,7 +2,7 @@
 This Library helps you to make a highly customizable swipe button
 
 ## Installation
-1. first add it in your root build.gradle at the end of repositories:
+1. first add this in your root build.gradle at the end of repositories:
 
 ```js
 allprojects {
