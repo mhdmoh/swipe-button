@@ -9,17 +9,20 @@
         <item name="inner_text">Swipe</item>
         <item name="inner_text_color">@color/black</item>
         <item name="inner_text_size">12sp</item>
-        <item name="inner_text_padding">16dp</item>
         <item name="inner_text_gravity">center</item>
+
         <item name="outer_background_drawable">@drawable/rounded_background</item>
         <item name="outer_background_height">40dp</item>
+
         <item name="button_background_drawable">@drawable/swipe_btn_background</item>
+        <item name="button_background_padding">16dp</item>
         <item name="button_background_src">@drawable/checkmark_white</item>
         <item name="button_width">56dp</item>
         <item name="button_height">56dp</item>
-        <item name="button_background_padding">16dp</item>
+
         <item name="trail_enabled">true</item>
         <item name="trail_background_tint">@color/gray</item>
+
         <item name="has_finish_animation">true</item>
         <item name="has_active_status">true</item>
     </style>
