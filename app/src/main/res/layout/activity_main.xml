@@ -42,6 +42,7 @@
         app:button_height="40dp"
         app:button_width="40dp"
         app:has_active_status="true"
+        app:has_finish_animation="true"
         app:inner_text="Swipe"
         app:inner_text_color="@color/green"
         app:inner_text_gravity="end"

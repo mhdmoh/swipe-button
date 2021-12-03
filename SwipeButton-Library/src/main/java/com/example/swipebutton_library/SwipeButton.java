@@ -178,7 +178,7 @@ public class SwipeButton extends RelativeLayout {
         swipeBtn = new ImageView(context);
 
         if (attrs != null && defStyleAttr == -1 && defStyleRes == -1) {
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.SwipeButton, defStyleAttr, defStyleRes);
+            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.SwipeButton,defStyleAttr, R.style.default_swipe_button_style);
             //----- HANDLE THE OUTER BACKGROUND -----//
             setOuterBackgroundDrawable(typedArray.getDrawable(R.styleable.SwipeButton_outer_background_drawable));
             setOuterBackgroundTint(typedArray.getColor(R.styleable.SwipeButton_outer_background_tint, -1));
