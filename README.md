@@ -1,10 +1,13 @@
 # swipe-button
 This Library helps you to make a highly customizable swipe button
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80918411/144707404-022ae1e2-a73c-40ac-83a0-9d569da88201.gif?raw=true" alt="Sublime's custom image"/>
+</p>
 
 ## Installation
 1. first add this in your root build.gradle at the end of repositories:
 
-```js
+```
 allprojects {
 		repositories {
 			...
@@ -72,8 +75,11 @@ add the view to your layout from the xml
 
 ### Manipulating The View Background :
 
-| Feature | Attribute | Example |
-|:---     | :---      | :---    |
+| Feature                          | Attribute                 | Example                                                             |
+|:---                              | :---                      | :---                                                                |
+| set the outer background drawble | outer_background_drawable | app:outer_background_drawable="@drawable/circular_white_background" |
+| set the outer background tint    | outer_background_tint     | app:outer_background_tint="@color/white"                            |
+| set the outer background height  | outer_background_height   | app:outer_background_height="40dp"                                  |
 
 ### Manipulating The Button Trail :
 
@@ -81,3 +87,36 @@ add the view to your layout from the xml
 |:---                  | :---                  | :---                                          |
 |activate button trail | trail_enabled         | app:trail_enabled="true"                      |
 |set trail tint        | trail_background_tint | app:trail_background_tint="@color/purple_500" |
+
+### More customization :
+- if you dont the button to have an active state [trigger the event when the button reach the end and then go back] you can disable it like so :
+```
+ app:has_active_status="false"
+```
+- if you dont the button to go back after the event you can do the following :
+```
+app:has_finish_animation="false"
+```
+
+### Listening to events
+```
+SwipeButton swipeButton = findViewById(R.id.swipe_btn_0);
+        swipeButton.setOnActiveListener(new OnActiveListener() {
+            @Override
+            public void onActive() {
+                Toast.makeText(getApplicationContext(), "Activated", Toast.LENGTH_SHORT).show();
+            }
+        });
+```
+
+PS : if you set
+```
+app:has_active_status="true"
+```
+then the event will trigger when you click the button not when the swipe ends
+
+### Customization examples :
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/80918411/144707795-6e91fc18-6926-4183-a02a-59f22a8989ce.gif?raw=true" alt="Sublime's custom image"/>
+	<img src="https://user-images.githubusercontent.com/80918411/144707794-1530932b-ed64-4115-b682-e98db3a5a8bc.gif?raw=true" alt="Sublime's custom image"/>
+</p>
