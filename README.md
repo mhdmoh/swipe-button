@@ -89,11 +89,11 @@ add the view to your layout from the xml
 |set trail tint        | trail_background_tint | app:trail_background_tint="@color/purple_500" |
 
 ### More customization :
-- if you dont the button to have an active state [trigger the event when the button reach the end and then go back] you can disable it like so :
+- if you dont want the button to have an active state [trigger the event when the button reach the end and then go back] you can disable it like so :
 ```
  app:has_active_status="false"
 ```
-- if you dont the button to go back after the event you can do the following :
+- if you dont want the button to go back after the event you can do the following :
 ```
 app:has_finish_animation="false"
 ```
