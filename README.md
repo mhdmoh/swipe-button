@@ -16,9 +16,9 @@ allprojects {
 	}
 ```
 2.  then add the dependency to your app build.gradle 
-```js
+```
 dependencies {
-	        implementation 'com.github.mhdmoh:swipe-button:1.0'
+	        implementation 'com.github.mhdmoh:swipe-button:[latest-version]'
 	}
 ```
 
@@ -118,5 +118,6 @@ then the event will trigger when you click the button not when the swipe ends
 ### Customization examples :
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/80918411/144707795-6e91fc18-6926-4183-a02a-59f22a8989ce.gif?raw=true" alt="Sublime's custom image"/>
+	
 	<img src="https://user-images.githubusercontent.com/80918411/144707794-1530932b-ed64-4115-b682-e98db3a5a8bc.gif?raw=true" alt="Sublime's custom image"/>
 </p>
