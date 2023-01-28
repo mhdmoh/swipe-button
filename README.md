@@ -120,3 +120,23 @@ then the event will trigger when you click the button not when the swipe ends
 	<img src="https://user-images.githubusercontent.com/80918411/144707795-6e91fc18-6926-4183-a02a-59f22a8989ce.gif?raw=true" alt="Sublime's custom image"/>
 	<img src="https://user-images.githubusercontent.com/80918411/144707794-1530932b-ed64-4115-b682-e98db3a5a8bc.gif?raw=true" alt="Sublime's custom image"/>
 </p>
+
+<br/>
+
+<h1 id="license">License :page_facing_up:</h1>
+
+Copyright 2020 Philipp Jahoda
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+<br/>
